@@ -1,0 +1,16 @@
+FindBestCombi(df, data_col=None, label_col=None, scalers=None, encoders=None,
+                  scaled_col=None, encoded_col=None, params_dtc=None, params_lr=None, params_svc=None, cv=None)
+: This function finds the best combination of scaler, encoder, and classification algorithm models and outputs scores
+--------------------------------------------------------------------------------
+[parameters]
+df : DataFrame to be scaled and encoded.
+data_col : predictoer column list
+label_col : target column
+scalers: List of scalers.
+encoders: List of encoders.
+scaled_col : Columns list to be scaled.
+encoded_col : Columns list to be encoded.
+params_dtc : parameters dictionary of decision tree
+params_lr : parameters dictionary of logistic regression
+params_svc : parameters dictionary of support vector machine
+cv: number of k fold

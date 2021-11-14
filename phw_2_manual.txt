@@ -1,0 +1,9 @@
+find_best(X, scalers, encoders, models, params_dict=None)
+: This function finds the best combination of scaler, encoder, and clustering algorithm models and outputs scores and runtime. 
+--------------------------------------------------------------------------------
+[parameters]
+X: DataFrame to be scaled and encoded.
+scalers: List of scalers.
+encoders: List of encoders.
+models: List of clustering models.
+params_dict: Dictionary of model’s hyperparameter
